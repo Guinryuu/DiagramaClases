@@ -14,7 +14,7 @@ namespace DiagramaClases
         public string Imagen { get; private set; }
         public decimal P_compra { get; private set; }
         public decimal P_venta { get; private set; }
-        public int Disponibilidad { get; private set; }
+        public static int Disponibilidad { get; private set; }
         public DateTime F_vencimiento { get; private set; }
         public int FK_ID_categoria { get; private set; }
 
